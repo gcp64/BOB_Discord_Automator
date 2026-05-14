@@ -1,59 +1,61 @@
-# BOB Discord Automator 🚀
+<div align="center"><h1>BOB_Discord_Automator</h1><p><strong>Automate Your Discord Server Setup</strong> | <strong>أتمتة إعداد خادم ديسكورد الخاص بك</strong></p><p><code>License: MIT</code> <code>Platform: Python Script</code> <code>Developed by: BOB</code></p></div>
 
-An advanced, fully automated Python toolkit for building and configuring Discord servers at light speed. Developed exclusively by **BOB**.
+* * *
 
-## ✨ Features
-- **Instant Server Building:** Creates 30+ categorized channels, permissions, and roles in seconds.
-- **Bot Configuration Automation:** Automatically sets up popular bots (Carl-bot, ProBot, MEE6, Mudae, Jockie Music, VoiceMaster) via direct API interaction instead of slow web dashboards.
-- **Arabic UI Support:** Fully optimized for Middle Eastern / Iraqi communities with Arabic embed messages, localized channel names, and rules.
-- **Auto-Mod & Security:** Deploys instant anti-raid, anti-spam, and comprehensive logging systems.
-- **Dynamic Voice Panels:** Configures VoiceMaster and Jockie Music UI panels automatically.
+BOB Discord Automator is an advanced Python toolkit designed for the rapid creation and comprehensive configuration of Discord servers. It streamlines the entire setup process, allowing users to deploy fully functional servers, bots, and channels with unparalleled speed and efficiency.
 
-## 🛠️ Files Included
-1. `server_builder.py`: Deletes old channels, creates a professional hierarchy of categories, text/voice channels, and assigns strict permissions.
-2. `bot_configurator.py`: Sends setup commands and configures bots (Autorole, Logging, Automod) instantly.
+مُؤتمت ديسكورد من BOB هو مجموعة أدوات بايثون متقدمة مصممة للإنشاء السريع والتكوين الشامل لخوادم ديسكورد. يبسط عملية الإعداد بأكملها، مما يتيح للمستخدمين نشر خوادم وروبوتات وقنوات وظيفية بالكامل بسرعة وكفاءة لا مثيل لهما.
 
-## 🚀 How to Use
+* * *
 
-### Prerequisites
-- Python 3.10+
-- `requests` library (`pip install requests`)
+## Features | المميزات
 
-### Configuration
-1. Open both `.py` files.
-2. Replace the configuration variables at the top of each file:
-   - `BOT_TOKEN`: Your custom Discord Bot token.
-   - `USER_TOKEN`: Your personal Discord User token (Used ONLY for sending bot configuration commands. **NEVER share this publicly**).
-   - `GUILD_ID`: The ID of the Discord server you want to modify.
+### 1\. Instant Server Creation | إنشاء خادم فوري
 
-### Execution
-Run the scripts in this exact order:
-```cmd
-python server_builder.py
-python bot_configurator.py
+*   Rapid deployment of new Discord servers from predefined templates. | نشر سريع لخوادم ديسكورد جديدة من قوالب محددة مسبقاً.
+*   Automated setup of channels, roles, and permissions. | إعداد آلي للقنوات والأدوار والصلاحيات.
+
+### 2\. Bot Configuration & Integration | تهيئة ودمج الروبوتات
+
+*   Automated setup and seamless integration of Discord bots. | إعداد ودمج روبوتات ديسكورد بشكل آلي وسلس.
+*   Customizable bot settings and permission management. | إدارة إعدادات وصلاحيات الروبوتات القابلة للتخصيص.
+
+* * *
+
+## Tech Stack | التقنيات
+
+| Component | Technology |
+| :-- | :-- |
+| **Interface** | Command-line Interface (CLI) |
+| **Core** | Python |
+| **Configuration** | Configuration Files (e.g., JSON/YAML) |
+
+* * *
+
+## Project Structure | هيكل المشروع
+
+```plaintext
+BOB_Discord_Automator/
+├── .gitattributes      # Git attribute configurations
+├── bot_configurator.py # Script for Discord bot setup and management
+├── server_builder.py   # Script for automated Discord server creation
+└── README.md           # Project documentation and usage guide
 ```
 
-## ⚠️ Security Warning
-**DO NOT** upload your `USER_TOKEN` or `BOT_TOKEN` to GitHub. Always remove them before committing code. These scripts are extremely powerful and will modify server structures aggressively.
+* * *
 
----
-*Developed with ❤️ by **BOB***
+## Terms of Use | شروط الاستخدام
 
-<!-- update 4112 -->
-<!-- update 8221 -->
-<!-- update 4824 -->
-<!-- update 9784 -->
-<!-- update 2974 -->
-<!-- update 5371 -->
-<!-- update 1720 -->
-<!-- update 5262 -->
-<!-- update 7847 -->
-<!-- update 2940 -->
-<!-- update 1959 -->
-<!-- update 6133 -->
-<!-- update 9685 -->
-<!-- update 3567 -->
-<!-- update 5003 -->
-<!-- update 2338 -->
-<!-- update 1230 -->
-<!-- update 1089 -->
+1.  **Personal Use:** Free for personal, non-commercial use. (الاستخدام الشخصي مجاني وغير تجاري)
+2.  **Modification:** You may modify this software for personal use. (يمكنك تعديل البرنامج للاستخدام الشخصي)
+
+* * *
+
+## Disclaimer | إخلاء المسؤولية
+
+This software is provided as is. The developer assumes no liability for any system instability or data loss.  
+البرنامج مقدم كما هو. المطور غير مسؤول عن أي عدم استقرار للنظام أو فقدان للبيانات.
+
+* * *
+
+<div align="center"><strong>Developed with passion by BOB</strong><br>All rights reserved © 2026</div>
